@@ -33,6 +33,7 @@ console.log(7 / 0)
 //Operação do tipo Infinity
 console.log("10" / 2) // O JS considera o conteúdo interno da string e verifica se dá para converter para valor numérico.
 console.log("10,2" / 2)
+console.log("3" + 2) // Aqui haverá uma concatenação porque String tem preferência
 console.log("show!" / 2) // Isso não funciona
 console.log(0.1 + 0.7) // Por causa da especificação do tipo de operação de ponto flutuante que o JS suporta, essa operação não terá uma precisão
 // Essa especificação é mais rápida, contudo não tão precisa. Se fosse a especificação precisa a operação seria mais lenta.
