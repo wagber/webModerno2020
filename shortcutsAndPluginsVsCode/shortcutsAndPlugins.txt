@@ -1,0 +1,9 @@
+// Open terminal
+ctrl + crase ( ` )
+
+// Execute code
+ctrl + alt + n 
+
+//Plugins
+Code Runner
+.run
