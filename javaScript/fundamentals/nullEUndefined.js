@@ -1,6 +1,4 @@
-//Sobre o convceito de Null pelo conceito de atribuição por valor e atribuição por referencia.
-
-//
+//Sobre o conceito de Null pelo conceito de atribuição por valor e atribuição por referencia.
 
 const a = {name: 'Teste'} //a contante a não tem o conteúdo deste objeto,
 //más ela tem o endereço onde esse objeto está localizado. A tem o endereço apontando para esse objeto.
