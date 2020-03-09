@@ -11,6 +11,8 @@ const notas = [6.7, 7.4, 9.8, 8.1, 7.7]
 //o segundo elemento de um array = 1, então ele vai percorrer pelos indices e não pelos valores.
 
 //for (i in notas) forma tradicional sem o let. Forma moderna e mais segura para manter o escopo é usando o LET.
+//Dentro da estrutura do for in temos: (let como palavra reservada, o i que representa o indice para uma array ou o atributo
+//para um objeto, o in e notas que representa o array e seus elementos como um todo.
 for (let i in notas){ //para cada elemento do array nota, ele vai me retornar um indice i
     console.log(i, notas[i])
     //console.log(`${i} = ${notas[i]}`) //Forma mais organizada
