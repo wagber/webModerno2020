@@ -92,10 +92,10 @@ BMW
 Porque estamos chamando diretamente do array fabricante e não de uma função, no caso a função imprimir. 
 */
 
-//O evento que o callback faz é um loop, que quando ele encontra um novo elemento ele dispara um evento que no caso é a função que foi chamda.
+//O evento que o callback faz é um loop, que quando ele encontra um novo elemento ele dispara um evento, que no caso é a função que foi chamada.
 //Então o evento nesse caso é cada um dos elementos percorridos no array. Para cada elemento ele chama o callback passando o próprio elemento
 //e o indice. Encontrou um novo elemento ele chama novamente o callback, a função que foi passada e chama o indice, encontrou outro ele passa
-//o nome do elemento que ele está percorrendo e o indice dele e vai chamando isso pra cada um dos elementos do array. Por isso se chama callback.
+//o nome do elemento que ele está percorrendo e o indice dele, e vai chamando isso pra cada um dos elementos do array. Por isso se chama callback.
 
 //Outro exemplo de callback é quando fazemos uma requisição AJAX, você vai lá no servidor aí é passado pra essa requisição uma callback, uma função
 //que será chamada quando a resposta chegar. Seja uma resposta de sucesso, seja uma resposta de erro.
